@@ -28,7 +28,7 @@ It looked really promising, and we really like scout but are still using [New R
 
 We’re happy with it so far, it can surely replace New Relic:
 
-<a href="http://devcorner.mynewsdesk.com/2012/05/11/scout-rails-app-monitoring/scout-mynewsdesk-1/" rel="attachment wp-att-1007"><img class="alignnone size-large wp-image-1007" title="Scout Rails app monitoring" src="http://devcorner.mynewsdesk.com/wp-content/uploads/2012/05/Scout-mynewsdesk-1-600x436.png" alt="Scout Rails app monitoring overview" width="600" height="436" /></a>
+<a href="http://devcorner.mynewsdesk.com/2012/05/11/scout-rails-app-monitoring/scout-mynewsdesk-1/" rel="attachment wp-att-1007"><img class="alignnone size-large wp-image-1007" title="Scout Rails app monitoring" src="/images/wp/2012/05/Scout-mynewsdesk-1-600x436.png" alt="Scout Rails app monitoring overview" width="600" height="436" /></a>
 
  
 

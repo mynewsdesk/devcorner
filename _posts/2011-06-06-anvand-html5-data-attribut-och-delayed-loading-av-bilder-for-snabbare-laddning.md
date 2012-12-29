@@ -38,12 +38,12 @@ Där itererar vi över alla länk element som har data-attributet **data-gravata
 Om man sedan tittar hur laddningen ser ut genom firebug så ser man följande resultat
 
 **Laddning av gravatar med delayed loading**  
-<a href="http://devcorner.mynewsdesk.com/2011/06/06/anvand-html5-data-attribut-och-delayed-loading-av-bilder-for-snabbare-laddning/screen-shot-2011-06-06-at-7-44-36-am/" rel="attachment wp-att-798"><img src="http://devcorner.mynewsdesk.com/wp-content/uploads/2011/06/Screen-shot-2011-06-06-at-7.44.36-AM-600x411.png" alt="Image of loading delayed gravatar images after window load" title="Delayed image loading example with firebug" width="600" height="411" class="alignnone size-large wp-image-798" /></a>
+<a href="http://devcorner.mynewsdesk.com/2011/06/06/anvand-html5-data-attribut-och-delayed-loading-av-bilder-for-snabbare-laddning/screen-shot-2011-06-06-at-7-44-36-am/" rel="attachment wp-att-798"><img src="/images/wp/2011/06/Screen-shot-2011-06-06-at-7.44.36-AM.png" alt="Image of loading delayed gravatar images after window load" title="Delayed image loading example with firebug" width="600" height="411" class="alignnone size-large wp-image-798" /></a>
 
 Om man inte använder sig av onload eventet och laddar bilderna direkt blir resultatet istället enligt nedan:
 
 **Laddning av gravatar utan delayed loading**  
-<a href="http://devcorner.mynewsdesk.com/2011/06/06/anvand-html5-data-attribut-och-delayed-loading-av-bilder-for-snabbare-laddning/screen-shot-2011-06-06-at-8-05-08-am/" rel="attachment wp-att-815"><img src="http://devcorner.mynewsdesk.com/wp-content/uploads/2011/06/Screen-shot-2011-06-06-at-8.05.08-AM-600x412.png" alt="Loading of gravatar images" title="Loading of gravatar images thats not delayed" width="600" height="412" class="alignnone size-large wp-image-815" /></a>
+<a href="http://devcorner.mynewsdesk.com/2011/06/06/anvand-html5-data-attribut-och-delayed-loading-av-bilder-for-snabbare-laddning/screen-shot-2011-06-06-at-8-05-08-am/" rel="attachment wp-att-815"><img src="/images/wp/2011/06/Screen-shot-2011-06-06-at-8.05.08-AM.png" alt="Loading of gravatar images" title="Loading of gravatar images thats not delayed" width="600" height="412" class="alignnone size-large wp-image-815" /></a>
 
 Av dessa två skärmdumpar kan man se att den utan delayed loading flyttar fram load eventet (röda linjen i Firebug) markant. Den totala laddningstiden är nästan identisk, men man ska ju komma ihåg att detta bara är ett exempel och inte speciellt många bilder som laddas.
 

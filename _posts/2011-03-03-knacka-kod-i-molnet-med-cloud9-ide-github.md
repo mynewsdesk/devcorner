@@ -21,13 +21,13 @@ Så när vi idag hade vår andra dag av Dev Corner här på Mynewsdesk RnD så p
 
 Att komma igång var väldigt smidigt, bara ange sin Git URL och klicka vidare
 
-![Import projects from Git with Cloud9 IDE](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/03/Screen-shot-2011-03-03-at-2.26.46-PM-600x347.png)
+![Import projects from Git with Cloud9 IDE](/images/wp/2011/03/Screen-shot-2011-03-03-at-2.26.46-PM-600x347.png)
 
 När man väl kopplat ihop sitt konto med GitHub så får man upp alla sina projekt på GitHub på sin dashboard och kan enkelt välja “clone” för att börja koda direkt i webbläsaren.
 
 Då man clonat sitt GitHub projekt till Cloud9 IDE är det bara sätta igång och inte speciellt svårt att känna igen sig från andra utvecklingsverktyg.
 
-![Cloud9 IDE JavaScript jQuery Plugin](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/03/Screen-shot-2011-03-03-at-2.47.49-PM-600x231.png)
+![Cloud9 IDE JavaScript jQuery Plugin](/images/wp/2011/03/Screen-shot-2011-03-03-at-2.47.49-PM-600x231.png)
 
 Målet för dagen var att testa att skapa en jQuery plugin (mer om denna kommer senare) som bara använder en testsida och JavaScript så var det enkelt att komma igång och det  jag gillade med JavaScript kodningen var att man direkt får upp varningar om semicolon eller fel finns i koden och det är enkelt att surfa på vanliga HTML sidor genom att bara använda preview knappen i verktyget. Andra trevliga features som finns redan nu är Themes, Syntax Highlighting och en extension manager som jag inte hunnit kolla närmare på.
 
@@ -78,11 +78,11 @@ $ git push origin master
 
 En bild hur detta ser ut i den inbyggda consolen i Cloud9 IDE
 
-![Console Cloud9 IDE](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/03/Screen-shot-2011-03-03-at-3.28.07-PM-600x127.png)
+![Console Cloud9 IDE](/images/wp/2011/03/Screen-shot-2011-03-03-at-3.28.07-PM-600x127.png)
 
 Och på GitHub ser det ut som vanligt.
 
-![GitHub commit/push](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/03/Screen-shot-2011-03-03-at-3.37.40-PM.png)
+![GitHub commit/push](/images/wp/2011/03/Screen-shot-2011-03-03-at-3.37.40-PM.png)
 
 Finns mycket att förbättra för att det ska vara ett fullvärdigt alternativ till TextMate för mig, men det är alltid roligt att testa nya verktyg. Tilläggas ska väl att Cloud9 IDE är gratis för open source projekt medan det finns alternativ som kostar för den som vill ha privata repositorier. Så min slutsats efter dagen är att jag nog kan tänka mig ge den några chanser till för open source projekt! Hoppas på mer trevligheter i denna applikation i framtiden.
 

@@ -11,7 +11,7 @@ tags:
 ---
 [Flowdock](http://www.flowdock.com) is a team collaboration and group chat service, similar to Campfire.
 
-![Flower bot](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/06/Flower-bot.jpg "Flower bot") Flowdock is also the group chat service of choice here at the R&D dept. To make it more fun and/or usable, we made this bot.
+![Flower bot](/images/wp/2011/06/Flower-bot.jpg "Flower bot") Flowdock is also the group chat service of choice here at the R&D dept. To make it more fun and/or usable, we made this bot.
 
 [Flower, the Flowdock bot][1] was written in Ruby, and made to be easy to extend with your own commands.
 

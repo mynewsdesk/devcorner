@@ -24,11 +24,11 @@ Efter en av de senare uppgraderingarna av TinyMCE vi gjorde i och med att stöde
 
 Resultatet blev en plugin som fått namnet [TinyMCE Raw Embed Plugin][3] och är en väldigt enkel plugin som innehåller möjligheten att infoga en flash object/embed kod i en dialog med en textarea.
 
-![Dialog Insert flash embed TinyMCE plugin](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/04/Screen-shot-2011-04-11-at-9.13.16-PM-600x388.png)
+![Dialog Insert flash embed TinyMCE plugin](/images/wp/2011/04/Screen-shot-2011-04-11-at-9.13.16-PM-600x388.png)
 
 Samtidigt finns möjligheten att direkt i HTML-läget infoga embed-kod och då visas det på samma sätt som det gör genom infogande via knappen och dialogen.
 
-![TinyMCE Flash Raw Embed Plugin example view](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/04/Screen-shot-2011-04-11-at-8.53.46-PM-600x468.png)
+![TinyMCE Flash Raw Embed Plugin example view](/images/wp/2011/04/Screen-shot-2011-04-11-at-8.53.46-PM-600x468.png)
 
 För att använda sig av pluginen lägger man rawembed-mappen i sin TinyMCE plugins-katalog. Sedan konfigurerar man initieringen av editorn så att pluginen laddas och knappen visas i editorn.
 

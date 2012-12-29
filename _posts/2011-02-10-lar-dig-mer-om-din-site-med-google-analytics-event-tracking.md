@@ -56,7 +56,7 @@ data-event-label="Scania AB"&gt;Följ oss på MyNewsdesk&lt;/a&gt;</pre>
 
 Såhär kan sedan rapporten se ut för vår kategori “follow”, för den senaste veckan:
 
-![Event Tracking Category: follow overview](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/02/Event-Tracking-Category_-Google-Analytics.jpg)
+![Event Tracking Category: follow overview](/images/wp/2011/02/Event-Tracking-Category_-Google-Analytics.jpg)
 
 Här lär vi oss att Följ-länken i kunders pressrum används mest, medans de rekommenderade företagen under sidan “network” används minst.
 

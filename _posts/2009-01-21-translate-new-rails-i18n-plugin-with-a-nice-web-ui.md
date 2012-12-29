@@ -15,7 +15,7 @@ The plugin requires that you run Rails 2.2 or later. It lets you mount a web UI 
 **Screenshot of the User Interface**
 
 <div id="attachment_30" class="wp-caption alignnone" style="width: 510px">
-  <a href="http://developer.newsdesk.se/wp-content/uploads/2009/01/newsdesk-translate.png"><img class="size-full wp-image-30" title="Newsdesk translate I18n screenshot" src="http://developer.newsdesk.se/wp-content/uploads/2009/01/newsdesk-translate.png" alt="Newsdesk translate I18n screenshot" width="500" height="360" /></a><p class="wp-caption-text">
+  <a href="/images/wp/2009/01/newsdesk-translate.png"><img class="size-full wp-image-30" title="Newsdesk translate I18n screenshot" src="/images/wp/2009/01/newsdesk-translate.png" alt="Newsdesk translate I18n screenshot" width="500" height="360" /></a><p class="wp-caption-text">
     Newsdesk translate I18n screenshot
   </p>
 </div>

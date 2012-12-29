@@ -39,7 +39,7 @@ De olika attributen vi använder:
 
 Nu ser våra Facebook Likes ut såhär, snyggt och prydligt!
 
-![Screen shot 2011-03-11 at 16.04.10](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/03/Screen-shot-2011-03-11-at-16.04.10.png)
+![Screen shot 2011-03-11 at 16.04.10](/images/wp/2011/03/Screen-shot-2011-03-11-at-16.04.10.png)
 
 Vi definerar några fler media-taggar för våra videor, och dom förklarar sig själv:
 
@@ -52,6 +52,6 @@ Vi definerar några fler media-taggar för våra videor, och dom förklarar sig 
 
 Det ska göra att det går att se våra videor direkt på Facebook:
 
-![Screen shot 2011-03-11 at 16.52.02](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/03/Screen-shot-2011-03-11-at-16.52.02.png)
+![Screen shot 2011-03-11 at 16.52.02](/images/wp/2011/03/Screen-shot-2011-03-11-at-16.52.02.png)
 
 Hur använder du själv Open Graph på din webbplats?

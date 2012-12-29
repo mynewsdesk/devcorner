@@ -15,7 +15,7 @@ As Mynewsdesk is moving into new markets, our internationalization (i18n) effort
 
 After exploring a few online translation tools, we settled on [WebTranslateIt.com][1]. It has a nice GUI and user friendly documentation. Our translation files took a while to import, but the payoff was immediate: graphs and stats on how up to date our translations are.
 
-![Language statistics](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/04/language-stats.png)
+![Language statistics](/images/wp/2011/04/language-stats.png)
 
 The translation process is straightforward and quite pleasant. You pick the untranslated strings in your language of choice, start typing and hit “Save and Next”. When we developers add strings, we `wti push` our changes on the command line. And when translations are done, we `wti pull`.
 

@@ -24,13 +24,13 @@ The best tool I’ve found so far is the [Operator add-on][3] for [Mozilla Firef
 
 **Microformats hCard example with Firefox Operator add-on**
 
-[<img class="alignnone size-medium wp-image-73" title="Microformats contact list with Operator add-on" src="http://developer.newsdesk.se/wp-content/uploads/2009/05/microformats-list-300x230.png" alt="" width="300" height="230" />][6]
+[<img class="alignnone size-medium wp-image-73" title="Microformats contact list with Operator add-on" src="/images/wp/2009/05/microformats-list-300x230.png" alt="" width="300" height="230" />][6]
 
 Microformats at [pressroom contacts listing][7] displays a list of contacts marked up with Microformats hCard.
 
 **Microformats contact example**
 
-[<img class="alignnone size-medium wp-image-74" title="Microformats Peter Ingman" src="http://developer.newsdesk.se/wp-content/uploads/2009/05/microformats-peter-300x253.png" alt="" width="300" height="253" />][8]
+[<img class="alignnone size-medium wp-image-74" title="Microformats Peter Ingman" src="/images/wp/2009/05/microformats-peter-300x253.png" alt="" width="300" height="253" />][8]
 
 [Microformats hCard contact][9] with detailed information about the contact and possibility to download contact.
 
@@ -79,7 +79,7 @@ Google will not automatically detect your Microformats. When you have deployed a
  [3]: https://addons.mozilla.org/en-US/firefox/addon/4106 "Download Operator add-on for Mozilla Firefox"
  [4]: http://www.mozilla.com/en-US/firefox/firefox.html "Mozilla Firefox"
  [5]: http://www.Newsdesk.se "Publish pressreleases at Newsdesk "
- [6]: http://developer.newsdesk.se/wp-content/uploads/2009/05/microformats-list.png
+ [6]: /images/wp/2009/05/microformats-list.png
  [7]: http://newsdesk.se/pressroom/newsdesk/contact_person/list "Newsdesk contacts with Microformats"
- [8]: http://developer.newsdesk.se/wp-content/uploads/2009/05/microformats-peter.png
+ [8]: /images/wp/2009/05/microformats-peter.png
  [9]: http://newsdesk.se/pressroom/newsdesk/contact_person/view/peter-ingman-administration-foeretagsledning-14 "Peter Ingman at Newsdesk hCard marked up with Microformats"
