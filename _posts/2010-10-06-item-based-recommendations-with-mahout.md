@@ -61,7 +61,7 @@ The data is now prepared to build our first recommendations engine. Now let’s 
 
 
 
-Wow… that was easy <img src='http://devcorner.mynewsdesk.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> In a few lines of code we built a scalable recommendations engine. That’s the beauty of Mahout.
+Wow… that was easy :) In a few lines of code we built a scalable recommendations engine. That’s the beauty of Mahout.
 
 In the first line of code we load our data model. Please be aware that we could load data from any other source: the database, a webservice or our custom implementation. We just need to make sure that our class implements the DataModel interface. Next we build an item based recommender. We use euclidean distance metrics but there are other metrics available: pearson correlation, pearson correlation with weighting, euclidean distance with weighting, tanimoto coefficient, log likelihood.
 
