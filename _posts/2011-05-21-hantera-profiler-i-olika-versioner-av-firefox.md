@@ -16,7 +16,7 @@ Då jag är en flitig användare av Extensions i **Firefox** så är det tidskr�
 
 För att lösa detta problem så kan man använda sig av olika profiler för de olika Firefox versionerna man har installerade. Jag stötte nyligen på ett program som man kan använda sig av om man vill slippa sig av att använda terminalen som heter **Profile Manager** som fungerar ypperligt för **hantera profiler i Firefox** och finns som en beta 2.
 
-<a rel="attachment wp-att-766" href="http://devcorner.mynewsdesk.com/2011/05/21/hantera-profiler-i-olika-versioner-av-firefox/profile-manager/"><img class="size-large wp-image-766" title="Profile Manager Firefox Versions" src="http://devcorner.mynewsdesk.com/wp-content/uploads/2011/05/profile-manager-600x517.png" alt="" width="600" height="517" /></a>  
+![Profile Manager Firefox Versions](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/05/profile-manager-600x517.png)  
 Så här kan det se ut i **Profile Manager beta 2** för att hantera Firefox profilerna
 
 Ladda ner Profile Manager  

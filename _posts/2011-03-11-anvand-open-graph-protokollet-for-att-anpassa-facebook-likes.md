@@ -39,7 +39,7 @@ De olika attributen vi använder:
 
 Nu ser våra Facebook Likes ut såhär, snyggt och prydligt!
 
-<a rel="attachment wp-att-496" href="http://devcorner.mynewsdesk.com/2011/03/11/anvand-open-graph-protokollet-for-att-anpassa-facebook-likes/screen-shot-2011-03-11-at-16-04-10/"><img class="alignnone size-full wp-image-496" title="Screen shot 2011-03-11 at 16.04.10" src="http://devcorner.mynewsdesk.com/wp-content/uploads/2011/03/Screen-shot-2011-03-11-at-16.04.10.png" alt="" width="551" height="146" /></a>
+![Screen shot 2011-03-11 at 16.04.10](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/03/Screen-shot-2011-03-11-at-16.04.10.png)
 
 Vi definerar några fler media-taggar för våra videor, och dom förklarar sig själv:
 
@@ -52,6 +52,6 @@ Vi definerar några fler media-taggar för våra videor, och dom förklarar sig 
 
 Det ska göra att det går att se våra videor direkt på Facebook:
 
-<a rel="attachment wp-att-520" href="http://devcorner.mynewsdesk.com/2011/03/11/anvand-open-graph-protokollet-for-att-anpassa-facebook-likes/screen-shot-2011-03-11-at-16-52-02/"><img class="alignnone size-full wp-image-520" title="Screen shot 2011-03-11 at 16.52.02" src="http://devcorner.mynewsdesk.com/wp-content/uploads/2011/03/Screen-shot-2011-03-11-at-16.52.02.png" alt="" width="529" height="167" /></a>
+![Screen shot 2011-03-11 at 16.52.02](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/03/Screen-shot-2011-03-11-at-16.52.02.png)
 
 Hur använder du själv Open Graph på din webbplats?

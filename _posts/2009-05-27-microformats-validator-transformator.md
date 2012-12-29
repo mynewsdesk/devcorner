@@ -27,7 +27,7 @@ and just pass it as parameter to Optimus like this:
 
 As result you get a nicely formatted XML view with all Microformat information displayed.
 
-[sourcecode language='xml']  
+{% highlight2 xml %}  
 <?xml version="1.0" encoding="UTF-8"?>
 
   
@@ -52,13 +52,13 @@ As result you get a nicely formatted XML view with all Microformat information d
 <nofollow href="http://newsdesk.se/publish">Publicera</nofollow>  
 </rel-nofollow>  
 </microformats>  
-[/sourcecode]
+{% endhighlight2 %}
 
 You can also easily get the response data as **JSON** and define an **Callback function** with just adding the parameters **format=json** and **function=cbFunction**.
 
 [/?uri=http://newsdesk.se/pressroom/newsdesk/contact_person/view/peter-ingman-administration-foeretagsledning-14&**format=json**&**function=cbFunction**][7]
 
-[sourcecode language='javascript']  
+{% highlight2 javascript %}  
 cbFunction({  
 “from”: “http://newsdesk.se/pressroom/newsdesk/contact_person/view/peter-ingman-administration-foeretagsledning-14″,  
 “title”: “Newsdesk – Peter Ingman (Administration/företagsledning) – Newsdesk”,  
@@ -83,7 +83,7 @@ cbFunction({
 }]  
 }  
 });  
-[/sourcecode]
+{% endhighlight2 %}
 
 ### Microformats Validation
 

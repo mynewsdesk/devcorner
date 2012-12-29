@@ -36,58 +36,43 @@ Microformats at [pressroom contacts listing][7] displays a list of contacts mark
 
 ### Example of Microformats hCard mark-up
 
-[sourcecode language='html']
+{% highlight2 html %}
 
-<div id="hcard-Joakim-Westerlund" class="vcard">
-  <img src="http://newsdesk.se/files/123d405e0dfaf99b9c3cae178ca0e124/resources/ResourceWebImage/thumbnails/joakimwesterlund_small.jpg?1237881798" alt="photo of Joakim Westerlund" class="photo" /><br /> <a class="url fn" href="http://www.newsdesk.se">Joakim Westerlund</a></p> <div class="org">
-    Newsdesk
-  </div>
-  
-  <p>
-    <a class="email" href="mailto:joakim.westerlund@newsdesk.se">joakim.westerlund@newsdesk.se</a>
-  </p>
-  
-  <div class="adr">
-    <div class="street-address">
-      Bondegatan 21
-    </div>
-    
-    <p>
-      <span class="locality">Stockholm</span>,<br /> <span class="postal-code">116 33</span><br /> <span class="country-name">Sweden</span> </div> </div> <p>
-        [/sourcecode]
-      </p>
-      
-      <p>
-        And in HTML the <strong>Microformats hCard</strong> will be displayed like this:
-      </p>
-      
-      <div style="background-color:#F9F9F9;border:1px dotted #D1D1D1;padding:1em;">
-        <div id="hcard-Joakim-Westerlund" class="vcard">
-          <img class="photo" src="http://newsdesk.se/files/123d405e0dfaf99b9c3cae178ca0e124/resources/ResourceWebImage/thumbnails/joakimwesterlund_small.jpg?1237881798" alt="photo of Joakim Westerlund" /><br /> <a class="url fn" href="http://www.newsdesk.se">Joakim Westerlund</a></p> <div class="org">
-            Newsdesk
-          </div>
-          
-          <p>
-            <a class="email" href="mailto:joakim.westerlund@newsdesk.se">joakim.westerlund@newsdesk.se</a>
-          </p>
-          
-          <div class="adr">
-            <div class="street-address">
-              Bondegatan 21
-            </div>
-            
-            <p>
-              <span class="locality">Stockholm</span>,<br /> <span class="postal-code">116 33</span><br /> <span class="country-name">Sweden</span></div> </div> </div> <p>
-                See more examples at the <a title="Microformats Wiki" href="http://microformats.org/wiki/hcard">Microformats Wiki</a> or use the <a title="Microformats creator" href="http://microformats.org/code/hcard/creator">Microformats creator</a> to define your own hCard markup or visit for more information. Are you interested in using RDFa, have a look at <a title="RDFa for HTML authors" href="http://rdfa.info/2009/05/14/rdfa-for-html-authors-start-here/">RDFa for HTML authors</a>.
-              </p>
-              
-              <h3>
-                Google Rich snippet
-              </h3>
-              
-              <p>
-                Google will not automatically detect your Microformats. When you have deployed an Microformats hCard or RDFa implementation to your site, you have to <a title="Submit rich snippets to Google" href="http://www.google.com/support/webmasters/bin/request.py?contact_type=rich_snippets_feedback">fill out a form at Google</a> and submit examples of pages that have implemented the hCard or hReview to let them know you are interested in <strong>Rich snippet</strong> on Google with your Microformats/RDFa.
-              </p>
+<div id="hcard-Joakim-Westerlund" class="vcard"><img class="photo" src="http://newsdesk.se/files/123d405e0dfaf99b9c3cae178ca0e124/resources/ResourceWebImage/thumbnails/joakimwesterlund_small.jpg?1237881798" alt="photo of Joakim Westerlund" />
+<a class="url fn" href="http://www.newsdesk.se">Joakim Westerlund</a>
+<div class="org">Newsdesk</div>
+<a class="email" href="mailto:joakim.westerlund@newsdesk.se">joakim.westerlund@newsdesk.se</a>
+<div class="adr">
+<div class="street-address">Bondegatan 21</div>
+<span class="locality">Stockholm</span>,
+<span class="postal-code">116 33</span>
+<span class="country-name">Sweden</span>
+
+</div>
+</div>
+{% endhighlight2 %}
+
+And in HTML the <strong>Microformats hCard</strong> will be displayed like this:
+
+<div style="background-color: #f9f9f9; border: 1px dotted #D1D1D1; padding: 1em;">
+<div id="hcard-Joakim-Westerlund" class="vcard"><img class="photo" src="http://newsdesk.se/files/123d405e0dfaf99b9c3cae178ca0e124/resources/ResourceWebImage/thumbnails/joakimwesterlund_small.jpg?1237881798" alt="photo of Joakim Westerlund" />
+<a class="url fn" href="http://www.newsdesk.se">Joakim Westerlund</a>
+<div class="org">Newsdesk</div>
+<a class="email" href="mailto:joakim.westerlund@newsdesk.se">joakim.westerlund@newsdesk.se</a>
+<div class="adr">
+<div class="street-address">Bondegatan 21</div>
+<span class="locality">Stockholm</span>,
+<span class="postal-code">116 33</span>
+<span class="country-name">Sweden</span>
+
+</div>
+</div>
+</div>
+
+See more examples at the <a title="Microformats Wiki" href="http://microformats.org/wiki/hcard">Microformats Wiki</a> or use the <a title="Microformats creator" href="http://microformats.org/code/hcard/creator">Microformats creator</a> to define your own hCard markup or visit for more information. Are you interested in using RDFa, have a look at <a title="RDFa for HTML authors" href="http://rdfa.info/2009/05/14/rdfa-for-html-authors-start-here/">RDFa for HTML authors</a>.
+### Google Rich snippet
+
+Google will not automatically detect your Microformats. When you have deployed an Microformats hCard or RDFa implementation to your site, you have to <a title="Submit rich snippets to Google" href="http://www.google.com/support/webmasters/bin/request.py?contact_type=rich_snippets_feedback">fill out a form at Google</a> and submit examples of pages that have implemented the hCard or hReview to let them know you are interested in <strong>Rich snippet</strong> on Google with your Microformats/RDFa.
 
  [1]: http://googlewebmastercentral.blogspot.com/2009/05/introducing-rich-snippets.html "Google introducing rich snippets"
  [2]: http://microformats.org/

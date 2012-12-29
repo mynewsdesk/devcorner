@@ -11,11 +11,11 @@ tags:
   - webtranslateit
   - workflow
 ---
-As Mynewsdesk is moving into new markets, our internationalization (i18n) efforts have been stepped up a notch. Rails has pretty good i18n support, but maintenance becomes painful when projects scale up [insert "rails can't scale" joke]. A better translation process was a big itch to scratch for us.
+As Mynewsdesk is moving into new markets, our internationalization (i18n) efforts have been stepped up a notch. Rails has pretty good i18n support, but maintenance becomes painful when projects scale up \[insert "rails can't scale" joke\]. A better translation process was a big itch to scratch for us.
 
 After exploring a few online translation tools, we settled on [WebTranslateIt.com][1]. It has a nice GUI and user friendly documentation. Our translation files took a while to import, but the payoff was immediate: graphs and stats on how up to date our translations are.
 
-<a rel="attachment wp-att-622" href="http://devcorner.mynewsdesk.com/?attachment_id=622"><img class="alignnone size-full wp-image-622" title="Language statistics" src="http://devcorner.mynewsdesk.com/wp-content/uploads/2011/04/language-stats.png" alt="" width="867" height="469" /></a>
+![Language statistics](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/04/language-stats.png)
 
 The translation process is straightforward and quite pleasant. You pick the untranslated strings in your language of choice, start typing and hit “Save and Next”. When we developers add strings, we `wti push` our changes on the command line. And when translations are done, we `wti pull`.
 

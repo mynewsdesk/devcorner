@@ -43,7 +43,7 @@ Vi började med att titta runt lite för att se vad det fanns för olika online 
                     
                     Eftersom att vi oftast parprogrammerar på Mynewsdesk så kunde vi se till att båda hade en tydlig bild av vad vi vill ha för resultat i ett första skede. Vi hade olika uppfattningar om vad som behövdes samt hur det skulle lyftas upp och presenteras som gjorde att vi snabbt kunde diskutera och anpassa vår mockup innan vi satte igång med själva utvecklingen.
                     
-                    <a rel="attachment wp-att-364" href="http://devcorner.mynewsdesk.com/2011/02/07/en-utvardering-av-att-anvanda-wireframing/wireframing-training-app/"><img class="alignnone size-large wp-image-364" title="Wireframing Training Web App" src="http://devcorner.mynewsdesk.com/wp-content/uploads/2011/02/wireframing-training-app-1024x769.jpg" alt="Wireframe result of mockups in Mockingbird" width="600" height="450" /></a>
+                    ![Wireframing Training Web App](http://devcorner.mynewsdesk.com/wp-content/uploads/2011/02/wireframing-training-app-1024x769.jpg)
                     
                     Vi kunde också se att genom att vi använde oss av Wireframes så blev själva utvecklingen mer effektiv och vi fastnade mindre. Allt detta genom att bara sätta sig ner och enkelt skissa upp vad man vill komma fram till under en timme. Att  använda sig av Wireframing är något vi på Mynewsdesk kommer försöka göra mer i den löpande utvecklingen av produkten, inte alltid säkert att det handlar om ett verktyg utan ibland kan det vara tillräckligt med att bara visualisera det man vill skapa genom penna & papper.
                     
