@@ -22,4 +22,4 @@ you can omit the checked argument just like with ActiveRecord boolean attributes
   </div>
 </div>
 
- [1]: http://github.com/newsdesk/acts_as_bitfield/commit/4057b67470469ba2f0cef1a31cca2d1f5f6bbfee
+ [1]: http://github.com/mynewsdesk/acts_as_bitfield/commit/4057b67470469ba2f0cef1a31cca2d1f5f6bbfee

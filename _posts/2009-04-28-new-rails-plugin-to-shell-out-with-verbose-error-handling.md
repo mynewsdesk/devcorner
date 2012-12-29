@@ -16,4 +16,4 @@ It turns out some commands will indicate success with an exit code of 0 but stil
 I’m curious to hear from if there is a simpler and more idiomatic way to do this. It seems odd that I have to write a Rails plugin to invoke external programs in an elegant and convenient way.
 
  [1]: http://tech.natemurray.com/2007/03/ruby-shell-commands.html
- [2]: http://github.com/newsdesk/shell/tree/master
+ [2]: http://github.com/mynewsdesk/shell/tree/master

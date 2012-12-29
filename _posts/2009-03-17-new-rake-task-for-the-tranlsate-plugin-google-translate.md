@@ -9,7 +9,7 @@ tags:
   - Ruby on Rails
   - translate
 ---
-We just pushed the latest addition to the <a href="http://github.com/newsdesk/translate/tree/master" target="_blank">Translate plugin</a> which adds <a href="http://github.com/newsdesk/translate/commit/6957c62a427bf4a1a001d2ddaaf8b1e794436628" target="_blank">a new rake task</a>: “rake translate:google FROM=sv TO=en”. This will translate all keys in sv.yaml using Google Translate into english and store them in en.yaml.
+We just pushed the latest addition to the <a href="http://github.com/mynewsdesk/translate/tree/master" target="_blank">Translate plugin</a> which adds <a href="http://github.com/mynewsdesk/translate/commit/6957c62a427bf4a1a001d2ddaaf8b1e794436628" target="_blank">a new rake task</a>: “rake translate:google FROM=sv TO=en”. This will translate all keys in sv.yaml using Google Translate into english and store them in en.yaml.
 
 This is a very convinient way of testing your application in a translated state, and look for strings that were left un-extracted. Actually, I would say 80% of our application’s strings were translated correctly by Google, so less translation work for us!
 
