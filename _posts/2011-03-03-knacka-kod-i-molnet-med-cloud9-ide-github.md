@@ -37,34 +37,44 @@ När man väl är klar med sitt kodade så hade jag lite problem att hitta hur j
 
 Det jag fick göra för att få det att fungera var att ändra lite i git config och när jag skulle pusha till GitHub fick jag följande problem.
 
-***git push origin master  
-****fatal: remote error:   You can’t push to git://github.com/jorkas/jCloud9Test.git  Use git@github.com:jorkas/Cloud9Test.git*
+{% highlight2 console %}
+$ git push origin master
+fatal: remote error:   You can’t push to git://github.com/jorkas/jCloud9Test.git  Use git@github.com:jorkas/Cloud9Test.git
+{% endhighlight2 %}
 
-***git config remote.origin.url git@github.com:jorkas/Cloud9Test.git***  
-***git config user.name \”Joakim Westerlund\”***  
-***git config user.email myemail@example.com***
+{% highlight2 console %}
+$ git config remote.origin.url git@github.com:jorkas/Cloud9Test.git
+$ git config user.name \”Joakim Westerlund\”
+$ git config user.email myemail@example.com
+{% endhighlight2 %}
 
 När jag sedan körde commandot:
-
-***git config -l***  
-* core.repositoryformatversion=0  
-core.filemode=true  
-core.bare=false  
-core.logallrefupdates=true  
-remote.origin.fetch=+refs/heads/\*:refs/remotes/origin/\*  
-remote.origin.url=git@github.com:jorkas/Cloud9Test.git  
-branch.master.remote=origin  
-branch.master.merge=refs/heads/master  
-user.name=Joakim Westerlund  
+{% highlight2 console %}
+$ git config -l
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.fetch=+refs/heads/\*:refs/remotes/origin/\*
+remote.origin.url=git@github.com:jorkas/Cloud9Test.git
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+user.name=Joakim Westerlund
 user.email=myemail@example.com*
+{% endhighlight2 %}
 
-Lite problem med commit meddelanden hittade jag också, var tvungen att skriva *git commit -m \’My commit message goes here\’*
+Lite problem med commit meddelanden hittade jag också, var tvungen att skriva
+{% highlight2 console %}
+$ git commit -m \’My commit message goes here\’
+{% endhighlight2 %}
 
 Så när allt var konfigurerat så fungerade det som det ska.
 
-***git add .  
-git commit -m \’This is a commit from Cloud9 IDE\’  
-git push origin master ***
+{% highlight2 console %}
+$ git add .
+$ git commit -m \’This is a commit from Cloud9 IDE\’
+$ git push origin master
+{% endhighlight2 %}
 
 En bild hur detta ser ut i den inbyggda consolen i Cloud9 IDE
 

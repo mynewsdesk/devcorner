@@ -45,7 +45,7 @@ I det enklaste utförandet kan man göra på följande sätt för att börja anv
 {% highlight2 javascript %}
 $(“a”).analyticsEventTracking();
 {% endhighlight2 %}
-*Ovanstående kod skulle spara en Category som är ### signup** och en Action som är **signup-click.*
+_Ovanstående kod skulle spara en Category som är **signup** och en Action som är **signup-click**._
 
 ### Spårning med definierade värden
 
@@ -66,7 +66,7 @@ label: “contact-link-click”
 });
 {% endhighlight2 %}
 
-*Ovanstående kod skulle spara en Category som är ### **contact**** och en Action som är ****contact-link-click** för samtliga länkar i arean som användaren klickar på.*
+_Ovanstående kod skulle spara en Category som är **contact** och en Action som är **contact-link-click** för samtliga länkar i arean som användaren klickar på._
 
 ### Mer avancerad spårning
 
