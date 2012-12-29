@@ -16,7 +16,7 @@ Vi har byggt ett Javascript för Event Tracking som innebär att vi kan mäta kl
 
 
 
-Scriptet kommer alltså initieras när sidans DOM-träd laddats, sätta upp ett click-event på alla element (oftast länkar) med klassen *event-tracking*, samt läsa in de olika data-attributen: *category*, *action*, *label* och *value*. Sedan skickas värdena till Analytics genom dess globala objekt asynkront: *_gaq.push()*.
+Scriptet kommer alltså initieras när sidans DOM-träd laddats, sätta upp ett click-event på alla element (oftast länkar) med klassen *event-tracking*, samt läsa in de olika data-attributen: *category*, *action*, *label* och *value*. Sedan skickas värdena till Analytics genom dess globala objekt asynkront: *\_gaq.push()*.
 
 Ett problem vi stötte på var att den asynkrona trackingen avbryts när sidan laddas om genom att användaren klickar på länken. Därför har vi en timeout för att hinna med laddningen av Googles tracker-gif. Normalt ska laddningen inte ta mer än ~50 ms, men för att vara på den säkra sidan väntar vi 100 ms. Om det är en Ajax-länk som ska trackas behöver vi dock ingen timeout eftersom laddningen av tracker-gifen kan ske parallellt med Ajax-requesten. En fördröjning på 100 ms tror jag också är mer påtaglig för den typen av länkar som normalt ska vara snabba och responsiva. För dessa länkar sätter vi ytterligare en klass: *ajax-tracking*.
 
