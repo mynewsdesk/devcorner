@@ -91,7 +91,7 @@ The Optimus service also supports validation of Microformats. Pass your URI that
 
 [See Example here (/?format=validate&uri=http://newsdesk.se/pressroom/newsdesk/contact_person/list)][8]
 
- [1]: http://developer.newsdesk.se/2009/05/26/microformats-hcard-and-rich-snippets-get-started/ "Microformats hCard and Rich Snippets"
+ [1]: /2009/05/26/microformats-hcard-and-rich-snippets-get-started/ "Microformats hCard and Rich Snippets"
  [2]: http://microformats.org/blog/2009/05/27/placemaker-optimus-validator/
  [3]: http://microformatique.com/optimus/ "Optimus Transformator and Validator"
  [4]: http://www.newsdesk.se

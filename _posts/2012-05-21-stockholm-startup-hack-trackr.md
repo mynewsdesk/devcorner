@@ -5,7 +5,7 @@ layout: post
 categories:
   - Uncategorized
 ---
-<img class="alignright size-full wp-image-1057" title="Screen Shot 2012-05-21 at 10.48.53" src="/images/wp/2012/05/Screen-Shot-2012-05-21-at-10.48.53.png" alt="" width="1278" height="807" />
+![Trackr](/images/wp/stockholm-startup-hack-trackr.png "Trackr")
 
 Last weekend [me][1], [Jonas][2] and [Martin][3] spent 12 hours hacking at the [Startup Hack][4] in Stockholm. It was a great hackathon, and we actually managed to get some kind of a product out!
 

@@ -63,5 +63,5 @@ Här lär vi oss att Följ-länken i kunders pressrum används mest, medans de r
 Nu kan vi enkelt följa upp alla justeringar vi gör på dessa länkar, och verkligen se om ett designbeslut var bra eller dåligt. Inte illa!
 
  [1]: http://code.google.com/apis/analytics/docs/tracking/eventTrackerGuide.html
- [2]: http://devcorner.mynewsdesk.com/2010/10/06/item-based-recommendations-with-mahout/
+ [2]: /2010/10/06/item-based-recommendations-with-mahout/
  [3]: http://code.google.com/apis/analytics/docs/tracking/eventTrackerGuide.html#Anatomy

@@ -39,12 +39,15 @@ Here are some of my personal Mynewsdesk Hall of Fame commits:
 
 **Update**: As requested by [@patrikstenmark][1], here’s a few examples of good commit messages:
 
-*   Acceptance test for access signup process (May 21, 2012)  
-    <span style="font-size: 13px; line-height: 12px;">In this commit, we added a capybara acceptance spec file with two tests. There wasn’t any need to write that we added it, <em>there hardly ever is</em>.</span>
-*   Kundo iframe needs transparency attribute in IE (March 29, 2012)  
-    <span style="font-size: 13px; line-height: 12px;">We use iframe based <a href="http://kundo.se/">Kundo</a> for support to our customers on top of a div with a background image. We added an attribute to the iframe to allow it to be transparent in IE. Being such a small change, we simply wrote why the change was made.</span>
-*   Refactor weekly recipients to dashboard email to own class (May 7, 2012)  
-    <span style="font-size: 13px; line-height: 12px;">A refactoring commit that broke out some logic for our weekly summary email into its own module. Small commit message that is to-the-point and no messing about.</span>
+*   Acceptance test for access signup process (May 21, 2012)
+
+    In this commit, we added a capybara acceptance spec file with two tests. There wasn’t any need to write that we added it, *there hardly ever is*.
+*   Kundo iframe needs transparency attribute in IE (March 29, 2012)
+
+    We use iframe based <a href="http://kundo.se/">Kundo</a> for support to our customers on top of a div with a background image. We added an attribute to the iframe to allow it to be transparent in IE. Being such a small change, we simply wrote why the change was made.
+*   Refactor weekly recipients to dashboard email to own class (May 7, 2012)
+
+    A refactoring commit that broke out some logic for our weekly summary email into its own module. Small commit message that is to-the-point and no messing about.
 
 Why I think these are good examples is that they adhere to their context. Bigger changes often need a more general summary, smaller changes or bugfixes might want to focus on the why. I don’t think there’s a silver bullet to writing them, just some guide lines and a lot of different contexts you should be aware of and adjust to. Anyway, that’s only what I think.
 

@@ -17,25 +17,14 @@ One common question from customer service is about status for an email delivery.
 
 With Sendgrid any person can log in and see general stats, bounce reports and status about a certain delivery. You can’t see the contents in the mails though, you have to use their BCC-app if you also wants to see the contents for each mail.
 
-<div id="attachment_1112" class="wp-caption alignnone" style="width: 610px">
-  <a href="http://devcorner.mynewsdesk.com/2012/06/08/migrating-to-sendgrid/stats-2/" rel="attachment wp-att-1112"><img class="size-large wp-image-1112" title="Statistics" src="/images/wp/2012/06/stats1-600x247.png" alt="" width="600" height="247" /></a><p class="wp-caption-text">
-    Stats for Forgot Password emails
-  </p>
-</div>
+![Stats for Forgot Password emails](/images/wp/sendgrid-stats1.png "Stats for Forgot Password emails")
+Stats for Forgot Password emails
 
-<div id="attachment_1116" class="wp-caption alignnone" style="width: 610px">
-  <a href="http://devcorner.mynewsdesk.com/2012/06/08/migrating-to-sendgrid/bounce-filtered-3/" rel="attachment wp-att-1116"><img class="size-large wp-image-1116" title="bounce-filtered" src="/images/wp/2012/06/bounce-filtered2-600x323.png" alt="" width="600" height="323" /></a><p class="wp-caption-text">
-    Bounce stats
-  </p>
-</div>
+![Bounce stats](/images/wp/sendgrid-bounce-filtered.png "Bounce stats")
+Bounce stats
 
-<div id="attachment_1114" class="wp-caption alignnone" style="width: 610px">
-  <a href="http://devcorner.mynewsdesk.com/2012/06/08/migrating-to-sendgrid/activity-filtered/" rel="attachment wp-att-1114"><img class="size-large wp-image-1114" title="activity-filtered" src="/images/wp/2012/06/activity-filtered-600x342.png" alt="" width="600" height="342" /></a><p class="wp-caption-text">
-    Searchable email activity
-  </p>
-</div>
-
- 
+![Searchable email activity](/images/wp/sendgrid-activity-filtered.png "Searchable email activity")
+Searchable email activity 
 
 **Integration**
 

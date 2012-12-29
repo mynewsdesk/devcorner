@@ -14,23 +14,23 @@ Sedan kom genombrottet för bärbara datorer, netbooks, smarta mobiler och surfp
 
 Open source-rörelsen har hela tiden legat i framkant av utvecklingen och utan den skulle våra datorer och enheter skulle se väldigt annorlunda ut. Det faller sig därför naturligt att en open-source-plattform tar plats i vår Post-PC-värld, på att sätt som [Arduino][1] har gjort. Det är en plattform för att vi som inte är civilingenjörer i elektroteknik ska kunna ta fram objekt som interagerar med sin omgivning.
 
-![närbild](/images/wp/2011/06/närbild.jpg)
+![närbild](/images/wp/hardware-closeup.jpg)
 
 Arduino startades i Ivrea, Italien av Massimo Banzi och David Cuartielles 2005. Då universitetet hotades av nedläggning och de var rädda att allt skulle läggas i malpåse, släpptes såväl kod som hårdvarudesign under öppna licenser. Sedan dess har projektet rönt stor uppmärksamhet. Att även hårdvarudesignen har öppen licens gör att vem som helst kan producera egna kort, vilket gör det svårt att veta hur många som har släppts, men förra året hade 120 000 officiella Arduino producerats, med målet att nå en miljon i år. På Googles senaste utvecklarkonferens presenterades deras planer på att släppa en egen version, Google Accessory Development Toolkit, specialiserad för Android-utvecklare.
 
-<span style="color: #000000;"><strong>Skapandet av en timer</strong></span>
+**Skapandet av en timer**
 
-![översikt](/images/wp/2011/06/översikt.jpg)Jag är normalt utvecklare av webbapplikationer men Arduino känns alltför intressant för att inte prova på. Jag beställde därför en officiell Arduino Uno från leverantören Seeed Studio, baserad i Shenzhen, Kina. Bortsett från att det var billigare att ta varvet runt jorden så erbjöd de också en prisvärt sidekick, ett kit med en uppsättning komponenter att experimentera med. Totalt kostade allt ringa 320 kr, fritt porto.
+![översikt](/images/wp/hardware-overview.jpg)Jag är normalt utvecklare av webbapplikationer men Arduino känns alltför intressant för att inte prova på. Jag beställde därför en officiell Arduino Uno från leverantören Seeed Studio, baserad i Shenzhen, Kina. Bortsett från att det var billigare att ta varvet runt jorden så erbjöd de också en prisvärt sidekick, ett kit med en uppsättning komponenter att experimentera med. Totalt kostade allt ringa 320 kr, fritt porto.
 
 Själva Arduinon levereras i en liten ask som är ungefär hälften så stor som en iPhone. Hjärtat i Arduino är en enchipsdator med namnet Atmel ATmega328. Den har 32 kB flashminne och bara 2 kb RAM. Med dessa begränsade resurser har folk byggt allt från [musikinstrument][2] till [quadcopters][3].
 
-![sidekickbk1_01](/images/wp/2011/06/sidekickbk1_01-300x225.jpg)Bland tillbehören fanns en liten breadboard, det vill säga en platta med små hål att sticka komponenter i, en handfull sladdar några sensorer (ljus, lutning, värme, tryck, vrid) och några enheter att påverka (servomotor, lysdioder, högtalare), motstånd, kondensatorer etc. Tillbehören är utmärkt dokumenterade på [Seeed Studios wiki][4].
+![sidekickbk1_01](/images/wp/hardware-kit.jpg)Bland tillbehören fanns en liten breadboard, det vill säga en platta med små hål att sticka komponenter i, en handfull sladdar några sensorer (ljus, lutning, värme, tryck, vrid) och några enheter att påverka (servomotor, lysdioder, högtalare), motstånd, kondensatorer etc. Tillbehören är utmärkt dokumenterade på [Seeed Studios wiki][4].
 
 Jag tänkte begränsa mitt första projekt till en timer, fast inställd på 25 minuter enligt projektmetoden Pomodoro. Den kan alltså användas som alternativ till äggklocka för att se när det är dags att ta paus. Tanken var att fem lysdioder ska blinka, en i taget, för att sedan hissa en flagga. En knapptryckning skall starta om timern.
 
 Det är slående hur pass enkelt det är att få ihop ett fungerande projekt som detta. Elektronik brukade vara komplicerat och tidskrävande, som jag minns det från min begränsade erfarenhet under gymnasietiden. Logiken består till största del av programkod. Arduino tillhandahåller ett litet men kompetent IDE. Själva programkoden skrivs i en förenklad form av C som sedan prekompileras till ett fullfjädrat C-projekt som kompileras och via USB förs över till Arduinon. Det tar bara någon sekund eller två att genom ett knapptryckning kompilera, ladda upp och driftsätta koden. Sedan kan man helt koppla bort datorn och Arduinon är självgående, förutsatt man man ger ström via något annat än USB, exempelvis ett 9V-batteri.
 
-![schema](/images/wp/2011/06/schema.png)
+![schema](/images/wp/hardware-schema.png)
 
 Jag blev nöjd med resultatet! Den kanske inte är så praktisk att använda men att paketera den i en låda ingår inte i projektet. Jag blev klar så pass snabbt att jag la till en högtalare som spelar Gubben Noak när tiden gått ut.
 
@@ -46,7 +46,7 @@ Fritzing erbjuder tre vyer:
 
 Om man vill serieproducera sin produkt, eller åtminstone göra en mer stabil produkt som inte kräver lösa komponenter på en breadboard, kan man använda PCB-vyn för att producera ett kretskort att löda fast komponenterna på.
 
-![Skärmavbild 2011-06-15 kl. 11.38.23](/images/wp/2011/06/Skärmavbild-2011-06-15-kl.-11.38.23-600x213.png)
+![Skärmavbild 2011-06-15 kl. 11.38.23](/images/wp/hardware-screenshot.png)
 
 Du kan [ladda ned dokumentation och kod här][6], open source under MIT-licens.
 

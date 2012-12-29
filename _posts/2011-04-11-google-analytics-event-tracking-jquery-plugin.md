@@ -39,7 +39,7 @@ Data-attributen som används är:
 I det enklaste utförandet kan man göra på följande sätt för att börja använda plugin:en.
 
 {% highlight2 html %}
-<a href="http://devcorner.mynewsdesk.com/signup" data-jaet-report-category="signup" data-jaet-report-action="signup-click">Sign up</a>
+<a href="/signup" data-jaet-report-category="signup" data-jaet-report-action="signup-click">Sign up</a>
 {% endhighlight2 %}
 
 {% highlight2 javascript %}
@@ -54,7 +54,7 @@ Om man istället önskar att definera spårnings värden direkt vid initieringen
 {% highlight2 html %}
 
 <div id="contact">
-  <a href="http://devcorner.mynewsdesk.com/contact">Contact</a><br /> <a href="http://twitter.com/mynewsdesk">Twitter</a>
+  <a href="/contact">Contact</a><br /> <a href="http://twitter.com/mynewsdesk">Twitter</a>
 </div>
 
 {% endhighlight2 %}
@@ -111,11 +111,11 @@ Denna jQuery plugin ligger på [Github][7] med mer information om vad som krävs
 
 **Uppdatering 21/5-2011, uppdaterade ändringen av data-attributen med “namespacing” så de avspeglar Version 1.0 av pluginen**
 
- [1]: http://devcorner.mynewsdesk.com/2011/03/03/knacka-kod-i-molnet-med-cloud9-ide-github/
+ [1]: /2011/03/03/knacka-kod-i-molnet-med-cloud9-ide-github/
  [2]: http://robertnyman.com/2011/01/12/geek-meet-february-2011-with-jake-archibald/
  [3]: http://twitter.com/robertnyman
  [4]: http://twitter.com/richardjohansso
- [5]: http://devcorner.mynewsdesk.com/2011/02/10/lar-dig-mer-om-din-site-med-google-analytics-event-tracking/
+ [5]: /2011/02/10/lar-dig-mer-om-din-site-med-google-analytics-event-tracking/
  [6]: https://github.com/jorkas/jquery-analyticseventtracking-plugin "jQuery Plugin for Google Analytics Event Tracking"
  [7]: https://github.com/jorkas/jquery-analyticseventtracking-plugin "jQuery plugin - Google Event Tracking with Google Analytics"
  [8]: http://code.google.com/apis/analytics/docs/tracking/asyncTracking.html

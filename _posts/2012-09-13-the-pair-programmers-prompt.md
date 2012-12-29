@@ -6,7 +6,7 @@ categories:
   - git
 ---
 At Mynewsdesk we love pair programming and do it all the time. To avoid manually changing our git configurations we use tools like [hitch][1] and [git-pair][2]. But I have found that we are forgetful and sometimes leave our pair configuration untouched when we stop pairing. To stop us from committing bugs in other people’s names we thought it was a good idea to display the pair info in the prompt along with the current git branch. 
-![Prompt](/images/wp/2012/09/Screen-Shot-2012-09-13-at-4.17.27-PM.png "Prompt")
+![Prompt](/images/wp/pair-programmers-prompt.png "Prompt")
 Just add this snippet to your `.bash_profile`.
 
 {% highlight2 bash %}

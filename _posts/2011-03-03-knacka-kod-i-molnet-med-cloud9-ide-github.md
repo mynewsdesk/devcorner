@@ -90,5 +90,5 @@ Jag hoppas att denna post kan vara till nytta för den som vill prova koda med C
 
  [1]: https://github.com/jorkas "Joakim Westerlund at Github"
  [2]: http://cloud9ide.com/ "Cloud9Ide for JavaScripter by JavaScripters"
- [3]: http://devcorner.mynewsdesk.com/author/richard/ "Richard at Mynewsdesk"
+ [3]: /author/richard/ "Richard at Mynewsdesk"
  [4]: http://twitter.com/richardjohansso "Richard på Twitter"

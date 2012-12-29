@@ -11,7 +11,7 @@ Perhaps not because we Saved the Rails Community with this minor feature, but ou
 
 [Peter talks more about this][4] in his private blog.
 
- [1]: http://developer.newsdesk.se/2009/03/17/upgrading-to-rails-23/
+ [1]: /2009/03/17/upgrading-to-rails-23/
  [2]: http://rails.lighthouseapp.com/projects/8994/tickets/2271-reset-request_params-in-testrequestrecycle#ticket-2271-1
  [3]: http://github.com/rails/rails/commit/8fa4275a72c334fe945dada6113fa0153ca28c87
  [4]: http://marklunds.com/articles/one/407
