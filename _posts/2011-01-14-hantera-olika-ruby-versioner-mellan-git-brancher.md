@@ -15,10 +15,12 @@ Detta fungerar jättesmidigt så länge som man inte vill byta version av Ruby e
 
 För att underlätta detta så skrev jag ihop en enkel git-hook som körs vid varje checkout:
 
-  
-Koden läggs i filen `<em>REPO</em>/.git/hooks/post-checkout` och ges körrättigheter:
+Koden läggs i filen
+{% highlight2 console %}REPO/.git/hooks/post-checkout{% endhighlight2 %} och ges körrättigheter:
 
-`chmod +x REPO/.git/hooks/post-checkout`
+{% highlight2 console %}
+$ chmod +x REPO/.git/hooks/post-checkout
+{% endhighlight2 %}
 
 Scriptet avgör först om man byter mellan två brancher, och kör i sådana fall en diff på `.rvmrc` mellan de olika brancherna. Är det någon diff skrivs en tydlig röd ruta ut i terminalen för att påminna utvecklaren om att ladda om sin rvm.
 

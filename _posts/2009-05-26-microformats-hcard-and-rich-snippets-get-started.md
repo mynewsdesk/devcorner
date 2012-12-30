@@ -24,13 +24,13 @@ The best tool I’ve found so far is the [Operator add-on][3] for [Mozilla Firef
 
 **Microformats hCard example with Firefox Operator add-on**
 
-[<img class="alignnone size-medium wp-image-73" title="Microformats contact list with Operator add-on" src="/images/wp/2009/05/microformats-list-300x230.png" alt="" width="300" height="230" />][6]
+![microformats](/images/wp/microformats-list.png)
 
 Microformats at [pressroom contacts listing][7] displays a list of contacts marked up with Microformats hCard.
 
 **Microformats contact example**
 
-[<img class="alignnone size-medium wp-image-74" title="Microformats Peter Ingman" src="/images/wp/2009/05/microformats-peter-300x253.png" alt="" width="300" height="253" />][8]
+![Microformats Peter Ingman](/images/wp/microformats-peter.png "Microformats Peter Ingman")
 
 [Microformats hCard contact][9] with detailed information about the contact and possibility to download contact.
 

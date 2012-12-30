@@ -50,7 +50,7 @@ Valet för oss föll på Mockingbird då det i detta skede var i beta, gratis oc
 
 Eftersom att vi oftast parprogrammerar på Mynewsdesk så kunde vi se till att båda hade en tydlig bild av vad vi vill ha för resultat i ett första skede. Vi hade olika uppfattningar om vad som behövdes samt hur det skulle lyftas upp och presenteras som gjorde att vi snabbt kunde diskutera och anpassa vår mockup innan vi satte igång med själva utvecklingen.
 
-![Wireframing Training Web App](/images/wp/2011/02/wireframing-training-app-1024x769.jpg)
+![Wireframing Training Web App](/images/wp/wireframing-training-app.jpg)
 
 Vi kunde också se att genom att vi använde oss av Wireframes så blev själva utvecklingen mer effektiv och vi fastnade mindre. Allt detta genom att bara sätta sig ner och enkelt skissa upp vad man vill komma fram till under en timme. Att  använda sig av Wireframing är något vi på Mynewsdesk kommer försöka göra mer i den löpande utvecklingen av produkten, inte alltid säkert att det handlar om ett verktyg utan ibland kan det vara tillräckligt med att bara visualisera det man vill skapa genom penna & papper.
 

@@ -19,8 +19,7 @@ Hope to see you there! If you see someone [looking like us][2] – don’t hesit
 
 We imagine London to be something like this:
 
-[<img class="alignnone size-medium wp-image-148" title="british_20beer_20company_20_2d_20hyannis_20_2d_20photo_20of_20five_2dbeer_20sampler" src="/images/wp/2009/06/british_20beer_20company_20_2d_20hyannis_20_2d_20photo_20of_20five_2dbeer_20sampler-300x257.jpg" alt="" width="300" height="257" />][3]
+![](/images/wp/british_20beer_20company_20_2d_20hyannis_20_2d_20photo_20of_20five_2dbeer_20sampler.jpg)
 
  [1]: http://www.vivabit.com/atmedia2009/
  [2]: /about/
- [3]: /images/wp/2009/06/british_20beer_20company_20_2d_20hyannis_20_2d_20photo_20of_20five_2dbeer_20sampler.jpg

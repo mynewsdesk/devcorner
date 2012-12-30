@@ -87,19 +87,19 @@ Med denna kod så blir resultatet enligt följande i Google Analytics:
 
 ### Beta1 som event category i Google Analytics
 
-![Beta 1 Event Tracking Category](/images/wp/2011/04/Screen-shot-2011-04-11-at-11.06.09-AM-600x65.png)
+![Beta 1 Event Tracking Category](/images/wp/google-analytics-beta-event-tracking.png)
 
 Event category Beta1 visas i Google Analytics
 
 ### Link-events som event label i Google Analytics
 
-![Link-events label i google analytics](/images/wp/2011/04/Screen-shot-2011-04-11-at-11.08.38-AM-600x67.png)
+![Link-events label i google analytics](/images/wp/google-analytics-event-labels.png)
 
 Event label link-events visas i Google Analytics
 
 ### Link-action som som event action i Google Analytics
 
-![Saved Actions with Google Event Tracking](/images/wp/2011/04/Screen-shot-2011-04-11-at-11.11.16-AM1-600x252.png)
+![Saved Actions with Google Event Tracking](/images/wp/google-analytics-event-saved-actions.png)
 
 I bilden ovan ser man värdet under action då länkarna som användare klickat på genom att funktionen ### *googleEventTrackingBetaTest* har körts för att hämta ut värdet på länken som besökaren klickade på.
 

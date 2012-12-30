@@ -50,13 +50,13 @@ Det är såklart bra att gå igenom Googles egna genomgång av parametrarna, i d
 
 En färdig länk kan se ut såhär:
 
-<pre>&lt;a href="/follow/872" class="event-tracking"
-data-event-category="follow" data-event-action="follow-search"
-data-event-label="Scania AB"&gt;Följ oss på MyNewsdesk&lt;/a&gt;</pre>
+{% highlight2 html %}
+<a href="/follow/872" class="event-tracking" data-event-category="follow" data-event-action="follow-search" data-event-label="Scania AB">Följ oss på MyNewsdesk</a>
+{% endhighlight2 %}
 
 Såhär kan sedan rapporten se ut för vår kategori “follow”, för den senaste veckan:
 
-![Event Tracking Category: follow overview](/images/wp/2011/02/Event-Tracking-Category_-Google-Analytics.jpg)
+![Event Tracking Category: follow overview](/images/wp/Event-Tracking-Category_-Google-Analytics.jpg)
 
 Här lär vi oss att Följ-länken i kunders pressrum används mest, medans de rekommenderade företagen under sidan “network” används minst.
 

@@ -15,18 +15,14 @@ Vi lade nyligen till <a href="http://ogp.me/" target="_blank">Open Graph</a>-fun
 
 Det låter ju väldigt komplext. Tur då att det är väldigt enkelt att bara definera ett antal nya meta-taggar och få bra resultat snabbt:
 
-<pre id="line10">&lt;meta property="og:site_name"
-  content="Mynewsdesk" /&gt;
-&lt;meta property="og:title"
-  content="Restplatser till fjällen under sportloven" /&gt;
-&lt;meta property="og:type"
-  content="article" /&gt;
-&lt;meta property="og:url"
-  content="http://www.mynewsdesk.com/se/...sportloven-577030" /&gt;
-&lt;meta property="og:image"
-  content="http://resources1.mynewsdesk.com/...skistar_small.jpg" /&gt;
-&lt;meta property="og:description"
-  content="Snart är sportlovet här ... restplatser till bra priser. " /&gt;</pre>
+{% highlight2 html %}
+<meta property="og:site_name" content="Mynewsdesk" />
+<meta property="og:title" content="Restplatser till fjällen under sportloven" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.mynewsdesk.com/se/...sportloven-577030" />
+<meta property="og:image" content="http://resources1.mynewsdesk.com/...skistar_small.jpg" />
+<meta property="og:description" content="Snart är sportlovet här ... restplatser till bra priser. " />
+{% endhighlight2 %}
 
 De olika attributen vi använder:
 
@@ -39,19 +35,19 @@ De olika attributen vi använder:
 
 Nu ser våra Facebook Likes ut såhär, snyggt och prydligt!
 
-![Screen shot 2011-03-11 at 16.04.10](/images/wp/2011/03/Screen-shot-2011-03-11-at-16.04.10.png)
+![Screen shot 2011-03-11 at 16.04.10](/images/wp/facebook-open-graph.png)
 
 Vi definerar några fler media-taggar för våra videor, och dom förklarar sig själv:
 
-<pre>&lt;meta property="og:video"
-  content="http://csp.picsearch.com/...F2anRT.flv" /&gt;
-&lt;meta property="og:video:type"
-  content="application/x-shockwave-flash" /&gt;
-&lt;meta property="og:video:height" content="276" /&gt;
-&lt;meta property="og:video:width" content="454" /&gt;</pre>
+{% highlight2 html %}
+<meta property="og:video" content="http://csp.picsearch.com/...F2anRT.flv" />
+<meta property="og:video:type" content="application/x-shockwave-flash" />
+<meta property="og:video:height" content="276" />
+<meta property="og:video:width" content="454" />
+{% endhighlight2 %}
 
 Det ska göra att det går att se våra videor direkt på Facebook:
 
-![Screen shot 2011-03-11 at 16.52.02](/images/wp/2011/03/Screen-shot-2011-03-11-at-16.52.02.png)
+![Screen shot 2011-03-11 at 16.52.02](/images/wp/facebook-open-graph-video.png)
 
 Hur använder du själv Open Graph på din webbplats?

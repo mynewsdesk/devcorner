@@ -5,11 +5,13 @@ layout: post
 categories:
   - Ruby on Rails
 ---
-I was annoyed with the fact that when you use Ruby backticks (i.e. \`some\_shell\_command\`) to shell out to an external program and the path to the program is wrong then no exception is raised. In addition, using system and backticks [doesn’t allow you to capture standard error][1]. I decided to write a little plugin called [shell][2] that allows you to do things like this:
+I was annoyed with the fact that when you use Ruby backticks (i.e. `some_shell_command`) to shell out to an external program and the path to the program is wrong then no exception is raised. In addition, using system and backticks [doesn’t allow you to capture standard error][1]. I decided to write a little plugin called [shell][2] that allows you to do things like this:
 
-> status, output, error = Shell.run(“/opt/local/bin/curl http://example.com”)  
-> # Raise exception on failure:  
-> status, output, error = Shell.run!(“/opt/local/bin/curl http://example.com”)
+{% highlight2 ruby %}
+status, output, error = Shell.run(“/opt/local/bin/curl http://example.com”)
+# Raise exception on failure:
+status, output, error = Shell.run!(“/opt/local/bin/curl http://example.com”)
+{% endhighlight2 %}
 
 It turns out some commands will indicate success with an exit code of 0 but still write to standard error. I have put in a special case in the Shell class that treats “No such file or directory” as a failure eventhough we have a zero exit code in that case.
 
